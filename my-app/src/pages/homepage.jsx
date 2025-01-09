@@ -14,19 +14,19 @@ function homepage() {
                     </div>
                     <div class="flex items-center">
                         <nav class="items-center hidden text-lg text-gray-800 uppercase font-sen dark:text-white lg:flex">
-                            <a href="#" class="flex px-6 py-2">
+                            <a href="#" class="flex px-6 py-2  text-white">
                                 Home
                             </a>
-                            <a href="#" class="flex px-6 py-2">
+                            <a href="#" class="flex px-6 py-2 text-white">
                                 Watch
                             </a>
-                            <a href="#" class="flex px-6 py-2">
+                            <a href="#" class="flex px-6 py-2 text-white">
                                 Product
                             </a>
-                            <a href="#" class="flex px-6 py-2">
+                            <a href="#" class="flex px-6 py-2 text-white">
                                 Contact
                             </a>
-                            <a href="#" class="flex px-6 py-2">
+                            <a href="#" class="flex px-6 py-2 text-white">
                                 Carrer
                             </a>
                         </nav>
@@ -54,7 +54,7 @@ function homepage() {
                         Virtual
                         </h1>
 
-                        <p class="mb-8 leading-relaxed text-black">Transformando el acceso al conocimiento en Honduras
+                        <p class="mb-8 leading-relaxed font-sans text-[#191b1bbb] bg-[#00d9d5f3] p-6 rounded-md text-[15px]  ">
 
                             En el marco del compromiso de la administración de la Presidenta Xiomara Castro con la educación y el desarrollo, hemos creado la Biblioteca Virtual de SENACIT, una plataforma que pone al alcance de todos los hondureños una amplia colección de recursos educativos, científicos y culturales.
 
