@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter,HashRouter, Routes, Route } from "react-router-dom";
 import Homepage from './pages/homepage.jsx'
+import Homepages from './pages/homepages.jsx'
 import './index.css'
 import './App.css'
 
@@ -10,12 +11,16 @@ function App() {
 
   return (
  
-    <HashRouter>
-    <Routes>
+   
+<HashRouter>
+   <Routes>
       <Route path="/" element={<Homepage />}></Route>
+      <Route path="/index2" element={<Homepages />}></Route>
 
     </Routes>
-  </HashRouter>
+    </HashRouter> 
+   
+
   )
 }
 

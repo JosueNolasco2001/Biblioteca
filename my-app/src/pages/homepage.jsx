@@ -1,6 +1,7 @@
 
 import imgXiomara from '../img/xiomaraSenacit.jpg'
 import imgSenacit from '../img/logosenacit.png'
+import { Link } from 'react-router-dom'
 import './styles.scss'
 function homepage() {
     return (
@@ -14,10 +15,11 @@ function homepage() {
                     </div>
                     <div class="flex items-center">
                         <nav class="items-center hidden text-lg text-gray-800 uppercase font-sen dark:text-white lg:flex">
-                            <a href="#" class="flex px-6 py-2  text-white">
-                                Home
-                            </a>
-                            <a href="#" class="flex px-6 py-2 text-white">
+                        <a href="#" className="flex px-6 p-110 text-[#00d9d5] underline " style={{ textDecoration: 'underline', textDecorationColor: '#00d9d5', textUnderlineOffset: '10px' }}>
+    Home
+</a>
+
+           <a href="#" class="flex px-6 py-2 text-white">
                                 Watch
                             </a>
                             <a href="#" class="flex px-6 py-2 text-white">
@@ -43,8 +45,8 @@ function homepage() {
             </header>
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5  md:flex-row flex-col items-center">
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0  ">
-                        <img class="object-cover object-center rounded-full" alt="hero" src={imgXiomara} />
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 p-11  ">
+                        <img class="object-cover object-center shadow-xl rounded-2xl  " alt="hero" src={imgXiomara} />
                     </div>
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h1 class="text-6xl sm:text-8xl font-extrabold text-gray-900 uppercase tracking-wide mb-6">
@@ -56,7 +58,7 @@ function homepage() {
 
 
 
-                        <div className="flex-shrink-0  relative overflow-hidden bg-[#6446F6] rounded-lg  shadow-lg w-full">
+                        <div className="flex-shrink-0  relative overflow-hidden bg-[#00d9d5f7] rounded-lg  shadow-lg w-full">
                             <svg
                                 className="absolute bottom-0 left-0 mb-8"
                                 viewBox="0 0 375 283"
@@ -108,7 +110,7 @@ function homepage() {
                             <center>
 
                             <div class="container ">
-  <button class="btn" href="#">Continuar</button>
+  <button class="btn" href="#"><Link to="/index2">Continuar</Link> </button>
 </div>
 
 
