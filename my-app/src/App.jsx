@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { BrowserRouter,HashRouter, Routes, Route } from "react-router-dom";
 import Homepage from './pages/homepage.jsx'
 import Homepages from './pages/homepages.jsx'
+import Books from './pages/books.jsx'
 import './index.css'
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
    <Routes>
       <Route path="/" element={<Homepage />}></Route>
       <Route path="/index2" element={<Homepages />}></Route>
+      <Route path="/Books" element={<Books />}></Route>
 
     </Routes>
     </HashRouter> 

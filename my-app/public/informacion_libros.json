@@ -1,0 +1,101 @@
+[
+    {
+        "titulo": "12312dasdasfasdasd",
+        "descripcion": "Sin descripción",
+        "categorias": [
+            "Sin categoría"
+        ],
+        "portada": "default.jpg",
+        "ruta": "libros\\12312dasdasfasdasd.pdf"
+    },
+    {
+        "titulo": "1984",
+        "descripcion": "\"1984\" es una novela distópica cautivadora que revela los peligros insidiosos de un gobierno totalitario y la vigilancia en masa. Con su crítica social y política impactante y perspicaz, esta obra maestra literaria ha resistido el paso del tiempo desde su publicación en 1949, convirtiéndose en un clásico indiscutible. Sumérgete en las páginas de esta inquietante historia y acompaña al protagonista, Winston Smith, en su desesperada lucha por preservar su humanidad en un mundo donde el Gran Hermano ejerce un control absoluto sobre cada faceta de la existencia. A medida que te adentres en estas páginas, te enfrentarás a cuestiones sociales y políticas complejas que siguen resonando en nuestra sociedad actual. Descubre la opresiva realidad de esta fascinante ficción distópica y deja que los temas como el pensamiento crítico, la manipulación psicológica y la libertad individual te envuelvan en una reflexión profunda.1984 es una novela distópica que explora los peligros del gobierno totalitario y la vigilancia en masa. Con su impactante crítica social y política, \"1984\" ha sido un clásico de la literatura desde su publicación en 1949. Los lectores seguirán la desgarradora lucha del protagonista, Winston Smith, por mantener su humanidad en un mundo donde el Gran Hermano controla cada aspecto de la vida. Descubre esta obra maestra de la ficción distópica y explora las complejas cuestiones sociales y políticas que aún resuenan hoy en día.",
+        "categorias": [
+            "Fiction"
+        ],
+        "portada": "img\\1b36ea1c9b7a1c3ad668b8bb5df7963f.jpg",
+        "ruta": "libros\\1984 Autor George Orwell.pdf"
+    },
+    {
+        "titulo": "Alicia en el País de las Maravillas & A Través del Espejo",
+        "descripcion": "p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial} p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.1px Verdana} Relato del inglés Lewis Carroll cuyo verdadero nombre era Charles Lutwidge Dodgson (1832-1898) publicado en 1865. Fruto de los cuentos que el autor improvisaba para tres niñas, una de ellas Alice Liddell de siete años. Como en el mito de Peter Pan, se basa en el anhelo y el temor a crecer. Se desarrolla según el ritmo de las canciones infantiles y plasma las fantasías y las pesadillas de la infancia. Esta obra maestra del nonsense (disparate) se prolonga en A través del espejo (1872). En Alicia, el mundo de los adultos, incomprensible, irracional e ilógico para los niños, se convierte en una fantasía y en un juego. En ella el autor hace alarde del conocimiento de la psicología infantil y de su cultura matemática.",
+        "categorias": [
+            "Young Adult Fiction"
+        ],
+        "portada": "img\\610528770c4a141a819f60c62b75ce9f.jpg",
+        "ruta": "libros\\Alicia en el País de las Maravillas Autor Lewis Carroll.pdf"
+    },
+    {
+        "titulo": "El Alquimista",
+        "descripcion": "Cuando una persona desea realmente algo, el Universo entero conspira para que pueda realizar su sueño... Descubre en esta guía de El Alquimista. Edición para estudiantes, las claves para orientar y estimular tu lectura del clásico de Paulo Coelho. El Alquimista relata las aventuras de Santiago, un joven pastor andaluz que un día abandonó su rebaño para ir en pos de una quimera. Con este enriquecedor viaje por las arenas del desierto, Paulo Coelho recrea un símbolo hermoso y revelador de la vida, el hombre y sus sueños. Esta guía incluye cuestionarios que contribuyen al estudio y comprensión de la obra, así como el primer capítulo de El Alquimista como un obsequio que invitará a los lectores a descubrir más de la obra de Paulo Coelho, considerado ya un clásico de nuestros días.",
+        "categorias": [
+            "Fiction"
+        ],
+        "portada": "default.jpg",
+        "ruta": "libros\\El Alquimista Autor Paulo Coelho.pdf"
+    },
+    {
+        "titulo": "El Principito",
+        "descripcion": "Desde un pequeño asteroide, muy lejos de este planeta que se debate por sobrevivir, destella la imagen de este dulce niño tratando de rescatar los mejores sentimientos humanos olvidados o relegados. Saint-Exupéry escribe este canto de amor y ternura inigualable dirigido a los adultos, aunque quizá sean los nños los que puedan entender su hermosisimo mensaje.",
+        "categorias": [
+            "Fiction"
+        ],
+        "portada": "img\\a8e61969387439578cde43d0369cde08.jpg",
+        "ruta": "libros\\El Principito Autor Antoine de Saint-Exupéry.pdf"
+    },
+    {
+        "titulo": "El Principe",
+        "descripcion": "El príncipe, publicado póstumamente en 1531, es un tratado de doctrina política escrito por Nicolás Maquiavelo, escritor, diplomático y filósofo político italiano de la época renacentista.La obra está dirigida a Lorenzo de Médici, conocido como ‘el Magnífico’, a quien Maquiavelo explica cómo actuar y qué hacer para unificar a Italia y sacarla de la crisis en que se encuentra.",
+        "categorias": [
+            "Literary Collections"
+        ],
+        "portada": "img\\75a5b626cf8607b8c1ba840bf4dc6f21.jpg",
+        "ruta": "libros\\El Príncipe Autor Nicolás Maquiavelo.pdf"
+    },
+    {
+        "titulo": "El Profesor",
+        "descripcion": "El otro día, al revisar mis papeles, hallé en mi mesa la siguiente copia de una carta que envié, un año ha, a un viejo conocido del colegio. Querido Charles: Creo que cuando tú y yo estuvimos juntos en Eton no éramos lo que podría llamarse personajes populares; tú eras un ser sarcástico, observador, perspicaz y frío; no intentaré trazar mi propio retrato, pero no recuerdo que fuera especialmente atractivo, ¿y tú? Desconozco qué magnetismo animal nos unió; desde luego, yo jamás albergué por ti sentimiento alguno que se pareciera al de Pilades y Orestes, y tengo razones para creer que, por tu parte, estabas igualmente lejos de cualquier sentimiento romántico. No obstante, fuera de las horas lectivas, estábamos siempre juntos, charlando y paseando; cuando el tema de conversación eran nuestros compañeros o nuestros maestros, nos comprendíamos mutuamente, y cuando yo recurría a alguna expresión de afecto, a un aprecio vago por algo excelente o hermoso, tanto si era de naturaleza animada como inanimada, tu sardónica frialdad no me impresionaba; entonces, como ahora, me sentía superior a tal freno. Ha pasado mucho tiempo desde que te escribí y más aún desde que nos vimos; el otro día, hojeando casualmente un periódico de tu condado, mis ojos fueron a dar con tu nombre. Empecé a pensar en los viejos tiempos, a repasar los acontecimientos ocurridos desde que nos separamos y me senté para escribir esta carta; no sé cuáles han sido tus ocupaciones, pero oirás, si decides escucharme, cómo el mundo me ha tratado a mí.",
+        "categorias": [
+            "Fiction"
+        ],
+        "portada": "img\\17b2ae6b2f170c47d795ace899113d97.jpg",
+        "ruta": "libros\\Jane Eyre Autor Charlotte Brontë.pdf"
+    },
+    {
+        "titulo": "La Divina Comedia",
+        "descripcion": "La Divina comedia (en italiano moderno: Divina Commedia, en toscano: Divina Comedìa), también conocida simplemente como Comedia, es un poema escrito por Dante Alighieri. Es la creación más importante de su autor y una de las obras fundamentales de la transición del pensamiento medieval al renacentista. Es considerada la obra maestra de la literatura italiana y una de las cumbres de la literatura universal.",
+        "categorias": [
+            "Fiction"
+        ],
+        "portada": "img\\192b2fc46b57277d4c01bd6661c91f79.jpg",
+        "ruta": "libros\\La Divina Comedia Autor Dante Alighieri.pdf"
+    },
+    {
+        "titulo": "La Republica",
+        "descripcion": "Sin descripción",
+        "categorias": [
+            "Literary Collections"
+        ],
+        "portada": "img\\1fe4a827b7461de08f98dceddbefeaba.jpg",
+        "ruta": "libros\\La República Autor Platón.pdf"
+    },
+    {
+        "titulo": "Orgullo y prejuicio",
+        "descripcion": "«Si la auténtica prueba para juzgar la calidad de una novela es la relectura, y los placeres que aporta la relectura, entonces Orgullo y prejuicio supera cualquier novela jamás escrita», Harold Bloom",
+        "categorias": [
+            "Fiction"
+        ],
+        "portada": "img\\5faea524c2b010537581e7fa22aaee40.jpg",
+        "ruta": "libros\\Orgullo y Prejuicio Autor Jane Austen.pdf"
+    },
+    {
+        "titulo": "Piense y hágase rico (Traducción: David De Angelis)",
+        "descripcion": "Esto no es una novela. Es un libro de texto sobre logros individuales que surgió directamente de las experiencias de cientos de los hombres más exitosos de Estados Unidos. Debe ser estudiado, digerido y meditado. No se debe leer más de un capítulo en una sola noche. El lector debe subrayar las oraciones que más lo impresionan. Más tarde, debe volver a estas líneas marcadas y leerlas de nuevo. Un verdadero estudiante no solo leerá este libro, absorberá su contenido y lo hará suyo. Este libro debe ser adoptado por todas las escuelas secundarias y no se debe permitir que ningún niño o niña se gradúe sin haber aprobado satisfactoriamente un examen. Esta filosofía no reemplazará las asignaturas que se enseñan en las escuelas, pero le permitirá organizar y aplicar los conocimientos adquiridos y convertirlos en un servicio útil y una compensación adecuada sin pérdida de tiempo.",
+        "categorias": [
+            "Self-Help"
+        ],
+        "portada": "img\\9258fc01f8ac86268d001b8f78f9c677.jpg",
+        "ruta": "libros\\Piense y Hágase Rico Autor Napoleon Hill.pdf"
+    }
+]

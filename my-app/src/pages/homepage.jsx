@@ -110,7 +110,7 @@ function homepage() {
                             <center>
 
                             <div class="container ">
-  <button class="btn" href="#"><Link to="/index2">Continuar</Link> </button>
+  <button class="btn" href="#"><Link to="/books">Continuar</Link> </button>
 </div>
 
 
