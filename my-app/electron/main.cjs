@@ -6,7 +6,7 @@ function createWindow() {
       fullscreen: true, // Activa pantalla completa
     webPreferences: {
       preload: path.join(__dirname, './preload.cjs'),
-      nodeIntegration: false,
+      nodeIntegration: true,
       contextIsolation: true,
     },
   });

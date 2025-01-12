@@ -1,48 +1,14 @@
 
 import imgXiomara from '../img/xiomaraSenacit.jpg'
 import imgSenacit from '../img/logosenacit.png'
+import Header from '../component/header.jsx'
 import { Link } from 'react-router-dom'
 import './styles.scss'
 function homepage() {
     return (
 
         <main class="relative h-screen w-sc bg-transparent ">
-            <header class="z-30 flex items-center w-full h-24 sm:h-32">
-                <div class="container min-w-full flex items-center justify-between ">
-                    <div class="text-3xl font-black text-gray-800 uppercase dark:text-white">
-                        <img class="w-[300px] h-" alt="hero" src={imgSenacit} />
-
-                    </div>
-                    <div class="flex items-center">
-                        <nav class="items-center hidden text-lg text-gray-800 uppercase font-sen dark:text-white lg:flex">
-                        <a href="#" className="flex px-6 p-110 text-[#00d9d5] underline " style={{ textDecoration: 'underline', textDecorationColor: '#00d9d5', textUnderlineOffset: '10px' }}>
-    Home
-</a>
-
-           <a href="#" class="flex px-6 py-2 text-white">
-                                Watch
-                            </a>
-                            <a href="#" class="flex px-6 py-2 text-white">
-                                Product
-                            </a>
-                            <a href="#" class="flex px-6 py-2 text-white">
-                                Contact
-                            </a>
-                            <a href="#" class="flex px-6 py-2 text-white">
-                                Carrer
-                            </a>
-                        </nav>
-                        <button class="flex flex-col ml-4 lg:hidden">
-                            <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white">
-                            </span>
-                            <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white">
-                            </span>
-                            <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white">
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </header>
+           <Header activeLink={1}></Header>
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5  md:flex-row flex-col items-center">
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 p-11  ">
