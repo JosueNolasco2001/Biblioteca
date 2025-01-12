@@ -4,7 +4,7 @@ import Header from '../component/header.jsx';
 function Books() {
   const [informacionLibros, setInformacionLibros] = useState([]);
   const [currentPage, setCurrentPage] = useState(1); // Página actual
-  const booksPerPage = 9; // Libros por página
+  const booksPerPage = 9; // Libros por página probando algo
 
   useEffect(() => {
     const loadBooks = async () => {
