@@ -20,7 +20,7 @@ function Header({ activeLink }) {
             >
               Inicio
             </a>
-            <a
+            <Link to="/books "
               href="#"
               className={`flex px-6 py-2 ${activeLink === 2 ? 'text-[#00d9d5] underline' : 'text-white'}`}
               style={{
@@ -28,16 +28,16 @@ function Header({ activeLink }) {
                 textUnderlineOffset: activeLink === 2 ? '10px' : '0',
               }}
             >
-             <Link to="/books">Libros</Link>
-            </a>
-            <a href="#"  className={`flex px-6 py-2 ${activeLink === 3? 'text-[#00d9d5] underline' : 'text-white'}`}
+            Libros
+            </Link>
+            <Link to="/Search" href="#"  className={`flex px-6 py-2 ${activeLink === 3? 'text-[#00d9d5] underline' : 'text-white'}`}
               style={{
                 textDecorationColor: activeLink === 3? '#00d9d5' : 'none',
                 textUnderlineOffset: activeLink === 3? '10px' : '0',
               }}>
-            <Link to="/Search">Buscar</Link>
+           Buscar
               
-            </a>
+            </Link>
             <a href="#" className="flex px-6 py-2 text-white">
               Contact
             </a>
