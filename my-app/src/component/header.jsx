@@ -38,9 +38,14 @@ function Header({ activeLink }) {
            Buscar
               
             </Link>
-            <a href="#" className="flex px-6 py-2 text-white">
-              Contact
-            </a>
+            <Link to="/Categorias" href="#"  className={`flex px-6 py-2 ${activeLink === 4? 'text-[#00d9d5] underline' : 'text-white'}`}
+              style={{
+                textDecorationColor: activeLink === 4? '#00d9d5' : 'none',
+                textUnderlineOffset: activeLink === 4? '10px' : '0',
+              }}>
+           Categorias
+              
+            </Link>
             <a href="#" className="flex px-6 py-2 text-white">
               Carrer
             </a>
