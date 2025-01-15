@@ -1,10 +1,11 @@
 import React from 'react';
-import imgSenacit from '../img/logosenacit.png';
+import imgSenacit from '../img/senacitlogov2.png';
+import Guacamaya from '../img/guacamaya.png';
 import { Link } from 'react-router-dom'
 function Header({ activeLink }) {
   return (
-    <header className="z-30 flex items-center w-full h-24 sm:h-32">
-      <div className="container min-w-full flex items-center justify-between">
+<header className="z-30 flex items-center w-full h-24 sm:h-40 bg-cover bg-center rounded-3xl " style={{ backgroundImage: `url(${Guacamaya})`}}>
+<div className="container min-w-full flex items-center justify-between">
         <div className="text-3xl font-black text-gray-800 uppercase dark:text-white">
           <img className="w-[300px]" alt="hero" src={imgSenacit} />
         </div>
