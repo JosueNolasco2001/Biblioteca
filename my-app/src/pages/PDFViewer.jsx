@@ -11,7 +11,7 @@ function PDFViewer() {
         title="PDF Viewer"
         className="w-full h-full"
       /> */}
-      <div className="flex items-center justify-center min-h-screen ">
+      <div className="flex items-center justify-center min-h-screen mt-36 ">
   <div className="relative w-full max-w-6xl h-[90vh] rounded-lg shadow-lg overflow-hidden">
     {/* Controles en la parte superior */}
     <div className="absolute top-0 left-0 right-0 bg-blue-500 text-white flex items-center justify-between px-4 py-2">

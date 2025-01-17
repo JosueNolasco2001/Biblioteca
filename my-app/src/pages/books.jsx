@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Books() {
   const [informacionLibros, setInformacionLibros] = useState([]);
   const [currentPage, setCurrentPage] = useState(1); // Página actual
-  const booksPerPage = 9; // Libros por página
+  const booksPerPage = 12; // Libros por página
 
   useEffect(() => {
     const loadBooks = async () => {
@@ -57,7 +57,7 @@ function Books() {
     <center>
       <section className="text-gray-600 body-font mt-24">
         <Header activeLink={2} />
-        <div className="container">
+        <div className=" mt-40">
           {/* Grid de libros */}
           <div className="grid grid-cols-4 gap-5 p-5">
             {currentBooks.length > 0 ? (

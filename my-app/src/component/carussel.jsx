@@ -1,112 +1,80 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import CV1_1 from "../img/cv1.jpg";
-import CV1_2 from "../img/cv1-2.jpg";
-import CV1_3 from "../img/cv1-3.jpg";
-import CV1_4 from "../img/cv1-4.jpg";
-import CV1_5 from "../img/cv1-5.jpg";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
-const DefaultCarousel = () => {
-    return (
-        <div className="w-full relative">
-            <Swiper
-                modules={[Navigation, Pagination]}
-                loop={true}
-                navigation={{
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                }}
-                pagination={{
-                    el: ".swiper-pagination",
-                    clickable: true,
-                }}
-                className="default-carousel"
-            >
-                <SwiperSlide>
-                    <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl  h-full object-cover" src={CV1_1} alt="" />
-                    </div>
-                </SwiperSlide>
+export default function BookCarousel() {
+  const [books, setBooks] = useState([]);
 
-                <SwiperSlide>
-                    <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl  h-full object-cover" src={CV1_2} alt="" />
-                    </div>
-                </SwiperSlide>
+  useEffect(() => {
+    const loadBooks = async () => {
+      try {
+        let data;
 
-                <SwiperSlide>
-                    <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl  h-full object-cover" src={CV1_3} alt="" />
-                    </div>
-                </SwiperSlide>
+        if (window.electron) {
+          data = await window.electron.loadBooksFile(
+            "../dist/informacion_libros.json"
+          );
+        } else {
+          const response = await fetch("/informacion_libros.json");
+          data = await response.json();
+        }
 
-                <SwiperSlide>
-                    <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl  h-full object-cover" src={CV1_4} alt="" />
-                    </div>
-                </SwiperSlide>
+        const randomBooks = getRandomBooks(data, 9);
+        setBooks(randomBooks);
+      } catch (error) {
+        console.error("Error al cargar el archivo JSON:", error);
+      }
+    };
 
-                <SwiperSlide>
-                    <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl  h-full object-cover" src={CV1_5} alt="" />
-                    </div>
-                </SwiperSlide>
-            </Swiper>
+    loadBooks();
+  }, []);
 
-            <div className="flex items-center gap-8 lg:justify-start justify-center">
-                <button
-                    id="slider-button-left"
-                    className="swiper-button-prev group !p-2 flex justify-center items-center border border-solid border-indigo-600 !w-12 !h-12 transition-all duration-500 rounded-full !top-2/4 !-translate-y-8 !left-5 hover:bg-indigo-600"
-                    data-carousel-prev
-                >
-                    <svg
-                        className="h-5 w-5 text-indigo-600 group-hover:text-white"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                    >
-                        <path
-                            d="M10.0002 11.9999L6 7.99971L10.0025 3.99719"
-                            stroke="currentColor"
-                            strokeWidth="1.6"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                        />
-                    </svg>
-                </button>
-                <button
-                    id="slider-button-right"
-                    className="swiper-button-next group !p-2 flex justify-center items-center border border-solid border-indigo-600 !w-12 !h-12 transition-all duration-500 rounded-full !top-2/4 !-translate-y-8 !right-5 hover:bg-indigo-600"
-                    data-carousel-next
-                >
-                    <svg
-                        className="h-5 w-5 text-indigo-600 group-hover:text-white"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                    >
-                        <path
-                            d="M5.99984 4.00012L10 8.00029L5.99748 12.0028"
-                            stroke="currentColor"
-                            strokeWidth="1.6"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                        />
-                    </svg>
-                </button>
-            </div>
+  const getRandomBooks = (books, count) => {
+    const shuffled = [...books].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  };
 
-            <div className="swiper-pagination"></div>
-        </div>
-    );
-};
-
-export default DefaultCarousel;
+  return (
+    <div className="flex flex-col items-center mt-10">
+     
+      {books.length > 0 ? (
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          {books.map((book, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex flex-col items-center">
+                <Link to={`/pdf-viewer/${encodeURIComponent(book.ruta)}`}>
+                  <img
+                    className="object-cover w-64 h-80 rounded-xl shadow-lg cursor-pointer"
+                    src={book.portada.replace(/\\/g, "/")}
+                    alt={book.titulo}
+                  />
+                </Link>
+              
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      ) : (
+        <p>Cargando libros...</p>
+      )}
+    </div>
+  );
+}

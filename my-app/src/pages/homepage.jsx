@@ -35,7 +35,7 @@ function Homepage() {
         </div>
       </center>
 
-      <Carusel />
+      <Carusel2 />
 
       {/* Bloque de texto animado de "Libros más destacados" */}
       <div
@@ -55,8 +55,7 @@ function Homepage() {
           Te presentamos los libros que generan mayor interés entre nuestros lectores
         </p>
       </div>
-
-      <Carusel2 />
+ <Carusel />
 
       {/* Sección de novedades */}
       <div className="flex justify-center w-full">

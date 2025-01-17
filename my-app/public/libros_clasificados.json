@@ -1,5 +1,44 @@
 {
-    "Programacion": [],
+    "Programacion": [
+        {
+            "titulo": "Aprenda a pensar como un programador con Python - Allen Downey_78Rd5fH8gA",
+            "portada": "img\\fabe30ae96732d69c48af3d1e151ede7.jpg",
+            "ruta": "libros\\Aprenda a pensar como un programador con Python - Allen Downey_78Rd5fH8gA.pdf"
+        },
+  {
+            "titulo": "Python para todos - Raul Gonzalez Duque_BDHQibWX7Z",
+            "portada": "img\\415f3bd4b9a620df0a29c44ea8b37d50.jpg",
+            "ruta": "libros\\Python para todos - Raul Gonzalez Duque_BDHQibWX7Z.pdf"
+        },
+   {
+            "titulo": "curso_python_astronomia_2018-02_dN7crDhlzQ",
+            "portada": "img\\528eb7785f580b08dc71e7bbe0f6b3a0.jpg",
+            "ruta": "libros\\curso_python_astronomia_2018-02_dN7crDhlzQ.pdf"
+        },
+        {
+            "titulo": "El lenguaje de programacion C - Bryan W Kernighan_EZwNCW7BMx",
+            "portada": "img\\1be2fb9f0744d573bf55166f6d3a674a.jpg",
+            "ruta": "libros\\El lenguaje de programacion C - Bryan W Kernighan_EZwNCW7BMx.pdf"
+        },
+  {
+            "titulo": "Manual+Programacion+Arduino_9dWAlGCHp7",
+            "portada": "img\\1f768de7cbbbc4796832b3ea16aefa7f.jpg",
+            "ruta": "libros\\Manual+Programacion+Arduino_9dWAlGCHp7.pdf"
+        },
+        {
+            "titulo": "Beginning COBOL for Programmers by Desconocido (z-lib.org)_8FwGcmGq8W",
+            "portada": "img\\78f7350905d729be7c0afd28c40189bd.jpg",
+            "ruta": "libros\\Beginning COBOL for Programmers by Desconocido (z-lib.org)_8FwGcmGq8W.pdf"
+        },
+  {
+            "titulo": "Programming-a-Computer-for-Playing-Chess_PhVTWF3vwb",
+            "portada": "img\\af2a441c3fd2de817125a1881d5826d4.jpg",
+            "ruta": "libros\\Programming-a-Computer-for-Playing-Chess_PhVTWF3vwb.pdf"
+        }
+
+
+        
+    ],
     "Ciencia de Datos": [
         {
             "titulo": "The Chandra X-ray Observatory",
@@ -1321,11 +1360,7 @@
             "portada": "img\\c5066d95f07b7e87982c8712cc8d032d.jpg",
             "ruta": "libros\\Curso-de-fisica-teorica-Vol-1-Mecanica_SAQNccyj5i.pdf"
         },
-        {
-            "titulo": "curso_python_astronomia_2018-02_dN7crDhlzQ",
-            "portada": "img\\528eb7785f580b08dc71e7bbe0f6b3a0.jpg",
-            "ruta": "libros\\curso_python_astronomia_2018-02_dN7crDhlzQ.pdf"
-        },
+      
         {
             "titulo": "Cаlculo varias Variables Thomas (Volumen II)_9hwRtpK1be",
             "portada": "img\\1ceac4eb909f42c3148c07711f5c82cc.jpg",
@@ -5029,10 +5064,36 @@
     ],
     "Educacion": [
         {
+            "titulo": "Ortografía y gramática para Dummies - Pilar Comin Sebastian_QlJeteOGnz",
+            "portada": "img\\833d236e95df86208dfa2fd62b82c396.jpg",
+            "ruta": "libros\\Ortografía y gramática para Dummies - Pilar Comin Sebastian_QlJeteOGnz.pdf"
+        },
+        {
             "titulo": "Conocimientos Basicos en Educacion Ambiental",
             "portada": "img\\bca53311d44940cb3ec0ef8eb80b72be.jpg",
             "ruta": "libros\\08. La Necesidad de la Educación Ambiental autor Federación de Enseñanza de CC.OO. de Andalucía_8GQxYrw148.pdf"
+        },
+        {
+            "titulo": "01. Hablemos de los océanos Autor Manual Educacion Medio Ambiente_G3c0mq9479",
+            "portada": "img\\d27f472fedfd417afaad1c9286e012de.jpg",
+            "ruta": "libros\\01. Hablemos de los océanos Autor Manual Educacion Medio Ambiente_G3c0mq9479.pdf"
+        },
+    {
+            "titulo": "La educacion de un ladron - Edward Bunker_xb9UmYRtXA",
+            "portada": "img\\fc31fa303ab6e712171613fd6e9632dc.jpg",
+            "ruta": "libros\\La educacion de un ladron - Edward Bunker_xb9UmYRtXA.pdf"
+        },
+    {
+            "titulo": "Los retos de la educación en la modernidad líquida",
+            "portada": "img\\eb089ec38325d3bd6e0c7d7cb794fd7f.jpg",
+            "ruta": "libros\\Los retos de la educacion en la modernidad liquida - Zygmunt Bauman_ef1SSoVMWE.pdf"
+        },
+  {
+            "titulo": "Sobre la educación en un mundo líquido",
+            "portada": "img\\105ea29329c755ea342d6c9c210f8572.jpg",
+            "ruta": "libros\\Sobre la educacion en un mundo liquido - Zygmunt Bauman_vps2NMY4Jn.pdf"
         }
+
     ],
     "Historia": [
         {
@@ -10002,11 +10063,7 @@
             "portada": "img\\042b7bbaf3e2aba440821fa52ac63b37.jpg",
             "ruta": "libros\\0006286_kwKWk4WGAe.pdf"
         },
-        {
-            "titulo": "01. Hablemos de los océanos Autor Manual Educacion Medio Ambiente_G3c0mq9479",
-            "portada": "img\\d27f472fedfd417afaad1c9286e012de.jpg",
-            "ruta": "libros\\01. Hablemos de los océanos Autor Manual Educacion Medio Ambiente_G3c0mq9479.pdf"
-        },
+      
         {
             "titulo": "01. Introducción al Estudio del Medio Ambiente autor Juan Carlos Herrera Cárdenas_zL9XUHdMuf",
             "portada": "img\\59dd94b3c8cb3e4d9c43912dbe2ba0ff.jpg",
@@ -11282,11 +11339,7 @@
             "portada": "img\\361a820fbf3dddeb09be98ccf87d3fde.jpg",
             "ruta": "libros\\Aporofobia el rechazo al pobre - Adela Cortina Orts_ozr0B2l5Rk.pdf"
         },
-        {
-            "titulo": "Aprenda a pensar como un programador con Python - Allen Downey_78Rd5fH8gA",
-            "portada": "img\\fabe30ae96732d69c48af3d1e151ede7.jpg",
-            "ruta": "libros\\Aprenda a pensar como un programador con Python - Allen Downey_78Rd5fH8gA.pdf"
-        },
+       
         {
             "titulo": "Aprenda Griego sin profesor  Un método moderno para aprender griego en 25 lecciones by MADESON translator Graciella Feller (z-lib.org)_XXNCe2zIfs",
             "portada": "img\\48bcd1740b67cdb8ce6aeaece85fd58b.jpg",
@@ -11567,11 +11620,7 @@
             "portada": "img\\754e2482b6d3e8a8bb8e98c951b49346.jpg",
             "ruta": "libros\\Beauvoir, Simone De - El Segundo Sexo_ECq2qFgDIG.pdf"
         },
-        {
-            "titulo": "Beginning COBOL for Programmers by Desconocido (z-lib.org)_8FwGcmGq8W",
-            "portada": "img\\78f7350905d729be7c0afd28c40189bd.jpg",
-            "ruta": "libros\\Beginning COBOL for Programmers by Desconocido (z-lib.org)_8FwGcmGq8W.pdf"
-        },
+     
         {
             "titulo": "Belleza de una espada clavada en la lengua. Poemas 1930-1986 by Emilio Adolfo Westphalen (z-lib.org)_7Eni2SS35h",
             "portada": "img\\3354547768e591813f3d84a41cae944b.jpg",
@@ -15277,11 +15326,7 @@
             "portada": "img\\1f764e727701b3a4af9c142ee5a20c81.jpg",
             "ruta": "libros\\El legado - Asako Serizawa_grYv8kYmGP.pdf"
         },
-        {
-            "titulo": "El lenguaje de programacion C - Bryan W Kernighan_EZwNCW7BMx",
-            "portada": "img\\1be2fb9f0744d573bf55166f6d3a674a.jpg",
-            "ruta": "libros\\El lenguaje de programacion C - Bryan W Kernighan_EZwNCW7BMx.pdf"
-        },
+    
         {
             "titulo": "El leon y el unicornio y otros ensayos - George Orwell_p3DkSrUNyd",
             "portada": "img\\6daebb93a22c953170e0a03904ee40f9.jpg",
@@ -18747,11 +18792,7 @@
             "portada": "img\\fb40595f9a180cff25a016b5910d8d18.jpg",
             "ruta": "libros\\La edad del pavo - Jean Paul_WtZYRDp4m8.pdf"
         },
-        {
-            "titulo": "La educacion de un ladron - Edward Bunker_xb9UmYRtXA",
-            "portada": "img\\fc31fa303ab6e712171613fd6e9632dc.jpg",
-            "ruta": "libros\\La educacion de un ladron - Edward Bunker_xb9UmYRtXA.pdf"
-        },
+    
         {
             "titulo": "La Enciclopedia Galactica - Alejo Cuervo_WZCbMJCAS6",
             "portada": "img\\d7452486255ed85c7893fe6ddb6ae3f5.jpg",
@@ -21032,11 +21073,7 @@
             "portada": "img\\d7d21c2eda22a11d6ca878d51564fe3a.jpg",
             "ruta": "libros\\Los relatos mas bellos del mundo - Varios Autores_F3Wi0gX5ZV.pdf"
         },
-        {
-            "titulo": "Los retos de la educación en la modernidad líquida",
-            "portada": "img\\eb089ec38325d3bd6e0c7d7cb794fd7f.jpg",
-            "ruta": "libros\\Los retos de la educacion en la modernidad liquida - Zygmunt Bauman_ef1SSoVMWE.pdf"
-        },
+    
         {
             "titulo": "Los sables y otros relatos - Yukio Mishima_w7fouYfaAq",
             "portada": "img\\4fd0a4897f91e69d6df3a2307dd638dd.jpg",
@@ -21297,11 +21334,7 @@
             "portada": "img\\9b256c73ae092001a41975d912b9c5ec.jpg",
             "ruta": "libros\\Manual de zoologia fantastica - Jorge Luis Borges_rj5YqXdMLo.pdf"
         },
-        {
-            "titulo": "Manual+Programacion+Arduino_9dWAlGCHp7",
-            "portada": "img\\1f768de7cbbbc4796832b3ea16aefa7f.jpg",
-            "ruta": "libros\\Manual+Programacion+Arduino_9dWAlGCHp7.pdf"
-        },
+      
         {
             "titulo": "Manuscrito Cuervo - Max Aub_888znJJU7M",
             "portada": "img\\448758993a3d8c57cf6f564610b78f18.jpg",
@@ -22417,11 +22450,7 @@
             "portada": "img\\7a8240cb9788089a4b28da5ee51c29f6.jpg",
             "ruta": "libros\\Orlando furioso - Italo Calvino (5)_Xibp7r6FL7.pdf"
         },
-        {
-            "titulo": "Ortografía y gramática para Dummies - Pilar Comin Sebastian_QlJeteOGnz",
-            "portada": "img\\833d236e95df86208dfa2fd62b82c396.jpg",
-            "ruta": "libros\\Ortografía y gramática para Dummies - Pilar Comin Sebastian_QlJeteOGnz.pdf"
-        },
+       
         {
             "titulo": "Oscuro bosque oscuro - Jorge Volpi (7)_UXArXe6nCc",
             "portada": "img\\75273201d0d50e6b77ef39db40bdd9d8.jpg",
@@ -23157,11 +23186,7 @@
             "portada": "img\\078b63c3f8886d13d7e1717b9a1ebe32.jpg",
             "ruta": "libros\\Profanaciones - Giorgio Agamben_gGqvsPCT0q.pdf"
         },
-        {
-            "titulo": "Programming-a-Computer-for-Playing-Chess_PhVTWF3vwb",
-            "portada": "img\\af2a441c3fd2de817125a1881d5826d4.jpg",
-            "ruta": "libros\\Programming-a-Computer-for-Playing-Chess_PhVTWF3vwb.pdf"
-        },
+      
         {
             "titulo": "Prohibido suicidarse en primave - Alejandro Casona (7)_L6cLQENVAW",
             "portada": "img\\8d93e2df2913b11755c12cf6c37d96fc.jpg",
@@ -23262,11 +23287,7 @@
             "portada": "img\\17f2e2e728f61f202715eda5a9a0ae06.jpg",
             "ruta": "libros\\Puntuacion para escritores y no escritores - Silvia Adela Kohan_GEMn2CpeIm.pdf"
         },
-        {
-            "titulo": "Python para todos - Raul Gonzalez Duque_BDHQibWX7Z",
-            "portada": "img\\415f3bd4b9a620df0a29c44ea8b37d50.jpg",
-            "ruta": "libros\\Python para todos - Raul Gonzalez Duque_BDHQibWX7Z.pdf"
-        },
+    
         {
             "titulo": "Q - Luther Blissett_TETUA8SfNc",
             "portada": "img\\26764defc87a944f08aed60bb05e26fd.jpg",
@@ -24227,11 +24248,7 @@
             "portada": "img\\05788c6db5b1e74001dcc430c7c4c86a.jpg",
             "ruta": "libros\\Sobre la composicion literaria  Sobre Dinarco  Primera carta a Ameo  Carta a Pompeyo Gemino  Segunda carta a Ameo - Dionisio de Halicarnaso_Eto9vRN1qh.pdf"
         },
-        {
-            "titulo": "Sobre la educación en un mundo líquido",
-            "portada": "img\\105ea29329c755ea342d6c9c210f8572.jpg",
-            "ruta": "libros\\Sobre la educacion en un mundo liquido - Zygmunt Bauman_vps2NMY4Jn.pdf"
-        },
+      
         {
             "titulo": "Sobre la escritura - Francis Scott Fitzgerald_wyGmMt4CYE",
             "portada": "img\\c8cb5d6b0027e942865a33d30d1bebe4.jpg",
