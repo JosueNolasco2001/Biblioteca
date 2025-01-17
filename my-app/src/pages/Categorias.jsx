@@ -75,34 +75,33 @@ function Categorias() {
         <div className=" flex mt-11">
           {/* Sidebar dinámico */}
           <aside
-            id="default-sidebar"
-            className="w-64 h-screen bg-gray-50 dark:bg-gray-800 overflow-y-auto px-3 py-4"
-          >
-            <ul className="space-y-2 font-medium">
-              {categorias.map((categoria) => (
-                <li key={categoria.nombre}>
-                  <button
-                    onClick={() => {
-                      setCategoriaSeleccionada(categoria.nombre);
-                      setCurrentPage(1); // Reiniciar a la primera página
-                    }}
-                    className={`flex items-center p-2 w-full text-left text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 ${
-                      categoriaSeleccionada === categoria.nombre
-                        ? "bg-gray-200 dark:bg-gray-700"
-                        : ""
-                    }`}
-                  >
-                    <span className="ms-3">
-                      <strong>{categoria.nombre}</strong>{" "}
-                      <span className="bg-gray-300 dark:bg-gray-600 px-2 py-1 rounded-lg">
-                        {categoria.cantidad}
-                      </span>
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </aside>
+  id="default-sidebar"
+  className="w-64 h-screen bg-gray-50 dark:bg-gray-800 overflow-y-auto px-3 py-4"
+>
+  <ul className="space-y-2 font-medium">
+    {categorias.map((categoria) => (
+      <li key={categoria.nombre}>
+        <button
+          onClick={() => {
+            setCategoriaSeleccionada(categoria.nombre);
+            setCurrentPage(1); // Reiniciar a la primera página
+          }}
+          className={`grid grid-cols-[1fr,auto] items-center p-2 w-full text-left text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 ${
+            categoriaSeleccionada === categoria.nombre
+              ? "bg-gray-200 dark:bg-gray-700"
+              : ""
+          }`}
+        >
+          <span className="font-bold truncate">{categoria.nombre}</span>
+          <span className="bg-gray-300 dark:bg-gray-600 px-2 py-1 rounded-lg text-sm text-gray-800 dark:text-gray-200">
+            {categoria.cantidad}
+          </span>
+        </button>
+      </li>
+    ))}
+  </ul>
+</aside>
+
 
           {/* Contenido principal */}
           <div className="flex-1">

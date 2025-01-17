@@ -57,9 +57,7 @@ function Header({ activeLink }) {
         >
           Categorias
         </Link>
-        <a href="#" className="flex px-6 py-2 text-white">
-          Carrer
-        </a>
+       
       </nav>
       <button className="flex flex-col ml-4 lg:hidden">
         <span className="w-6 h-1 mb-1 bg-gray-800 dark:bg-white"></span>
