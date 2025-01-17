@@ -67,7 +67,7 @@ function Search() {
   const prevPage = () => setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font mt-24">
       <Header activeLink={3} />
       <div className="container px-5 py-24 mx-auto">
         {/* Barra de búsqueda */}

@@ -70,9 +70,9 @@ function Categorias() {
 
   return (
     <center>
-      <section className="text-gray-600 body-font">
-        <Header activeLink={2} />
-        <div className="container flex">
+      <section className="text-gray-600 body-font mt-48">
+        <Header activeLink={4} />
+        <div className=" flex mt-11">
           {/* Sidebar dinámico */}
           <aside
             id="default-sidebar"

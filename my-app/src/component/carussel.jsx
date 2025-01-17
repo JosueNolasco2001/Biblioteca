@@ -28,31 +28,31 @@ const DefaultCarousel = () => {
             >
                 <SwiperSlide>
                     <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl w-full h-full object-cover" src={CV1_1} alt="" />
+                        <img className="rounded-3xl  h-full object-cover" src={CV1_1} alt="" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl w-full h-full object-cover" src={CV1_2} alt="" />
+                        <img className="rounded-3xl  h-full object-cover" src={CV1_2} alt="" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl w-full h-full object-cover" src={CV1_3} alt="" />
+                        <img className="rounded-3xl  h-full object-cover" src={CV1_3} alt="" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl w-full h-full object-cover" src={CV1_4} alt="" />
+                        <img className="rounded-3xl  h-full object-cover" src={CV1_4} alt="" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="mx-5 sm:mx-10 lg:mx-20 bg-indigo-50 h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center rounded-3xl overflow-hidden">
-                        <img className="rounded-3xl w-full h-full object-cover" src={CV1_5} alt="" />
+                        <img className="rounded-3xl  h-full object-cover" src={CV1_5} alt="" />
                     </div>
                 </SwiperSlide>
             </Swiper>

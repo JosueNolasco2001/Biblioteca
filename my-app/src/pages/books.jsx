@@ -55,7 +55,7 @@ function Books() {
 
   return (
     <center>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font mt-24">
         <Header activeLink={2} />
         <div className="container">
           {/* Grid de libros */}

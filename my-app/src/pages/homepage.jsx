@@ -26,11 +26,11 @@ function Homepage() {
   }, []);
 
   return (
-    <main className="relative h-screen w-sc bg-transparent">
+    <main className="relative h-screen w-sc bg-transparent mt-40">
       <Header activeLink={1} />
       
       <center>
-        <div className="bg-[url('../img/Biblioteca-Virtual6.png')] bg-cover bg-center h-64 w-[90%] text-white">
+        <div className="bg-[url('../img/Biblioteca-Virtual6.png')] bg-cover bg-center  w-[90%] text-white">
           <img src={imgXiomara2} alt="" />
         </div>
       </center>
