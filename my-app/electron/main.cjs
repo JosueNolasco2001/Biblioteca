@@ -1,14 +1,13 @@
-
-const { app, BrowserWindow } = require('electron');
-
+const { app, BrowserWindow, ipcMain } = require('electron'); // Agrega ipcMain
 const path = require('path');
+
 function createWindow() {
   const win = new BrowserWindow({
-      fullscreen: true, // Activa pantalla completa
+    fullscreen: true, // Activa pantalla completa
     webPreferences: {
-      preload: path.join(__dirname, './preload.cjs'),
+      preload: path.join(__dirname, './preload.cjs'), // Asegúrate de que esta ruta sea correcta
       nodeIntegration: true,
-      contextIsolation: true,
+      contextIsolation: true, // Activa contextIsolation por seguridad
     },
   });
 
@@ -18,6 +17,11 @@ function createWindow() {
       : `file://${path.join(__dirname, '../dist/index.html')}` // Archivo empaquetado
   );
 }
+
+// Manejo del evento 'exit-app' enviado desde el frontend
+ipcMain.on('exit-app', () => {
+  app.quit(); // Cierra la aplicación
+});
 
 app.whenReady().then(() => {
   createWindow();

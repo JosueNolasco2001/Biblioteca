@@ -2,10 +2,16 @@ import React from 'react';
 import imgSenacit from '../img/senacitlogov2.png';
 import Guacamaya from '../img/guacamaya.png';
 import { Link } from 'react-router-dom'
+
 function Header({ activeLink }) {
+  
+  const handleExit = () => {
+    window.electron.sendExitApp();
+  };
+  
   return (
 <header
-  className="z-30  fixed top-0  flex items-center w-[90%] h-24 sm:h-40 bg-cover bg-center rounded-3xl"
+  className="z-30  fixed top-0  flex items-center w-[90%] h-24 sm:h-40 bg-cover bg-center rounded-3xl p-3"
   style={{ backgroundImage: `url(${Guacamaya})` }}
 >
   <div className="container min-w-full flex items-center justify-between">
@@ -57,6 +63,16 @@ function Header({ activeLink }) {
         >
           Categorias
         </Link>
+        <button
+          onClick={handleExit}
+          className={`flex px-6 py-2 ${activeLink === 5 ? 'text-[#00d9d5] underline' : 'text-white bg-red-500 rounded-xl'} `}
+          style={{
+            textDecorationColor: activeLink === 5? '#00d9d5' : 'none',
+            textUnderlineOffset: activeLink === 5 ? '10px' : '0',
+          }}
+        >
+          CERRAR
+        </button>
        
       </nav>
       <button className="flex flex-col ml-4 lg:hidden">

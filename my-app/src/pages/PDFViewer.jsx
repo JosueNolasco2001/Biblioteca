@@ -15,27 +15,7 @@ function PDFViewer() {
      <Header activeLink={2}></Header>
     <div className="flex items-center justify-center min-h-screen mt-36">
       <div className="relative w-full max-w-6xl h-[90vh] rounded-lg shadow-lg overflow-hidden">
-        {/* Controles de zoom */}
-        <div className="absolute top-4 left-4 z-10 flex gap-2">
-          <button
-            onClick={handleZoomOut}
-            className="px-3 py-1 bg-gray-200 rounded shadow hover:bg-gray-300"
-          >
-            -
-          </button>
-          <button
-            onClick={resetZoom}
-            className="px-3 py-1 bg-gray-200 rounded shadow hover:bg-gray-300"
-          >
-            Restablecer
-          </button>
-          <button
-            onClick={handleZoomIn}
-            className="px-3 py-1 bg-gray-200 rounded shadow hover:bg-gray-300"
-          >
-            +
-          </button>
-        </div>
+       
 
         {/* Marco del PDF */}
         <div
