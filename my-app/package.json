@@ -1,3 +1,4 @@
+
 {
   "main": "electron/main.cjs",
   "name": "my-app",
@@ -56,5 +57,11 @@
     "mac": {
       "target": "dmg"
     }
+  },
+  "mac": {
+    "icon": "../dist/assets/logoSenacitIcon.png"
+  },
+  "win": {
+    "icon": "build/logoSenacitIcon.png"
   }
 }

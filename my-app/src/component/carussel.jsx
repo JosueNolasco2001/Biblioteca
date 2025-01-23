@@ -21,6 +21,7 @@ export default function BookCarousel() {
         } else {
           const response = await fetch("/informacion_libros.json");
           data = await response.json();
+          console.log("HOLAAAAAAAAAAAAAAAAAA",data.length)
         }
 
         const randomBooks = getRandomBooks(data, 9);
@@ -59,10 +60,10 @@ export default function BookCarousel() {
         >
           {books.map((book, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center">
+              <div className=" object-cover items-center w-full h-full">
                 <Link to={`/pdf-viewer/${encodeURIComponent(book.ruta)}`}>
                   <img
-                    className="object-cover w-64 h-80 rounded-xl shadow-lg cursor-pointer"
+                    className="w-full h-full  rounded-xl shadow-lg cursor-pointer"
                     src={book.portada.replace(/\\/g, "/")}
                     alt={book.titulo}
                   />
