@@ -4,7 +4,7 @@ const path = require('path');
 function createWindow() {
   const win = new BrowserWindow({
     fullscreen: true, // Activa pantalla completa
-    icon: path.join(__dirname, '../dist/assets/logoSenacitIcon.png'),
+    icon: path.join(__dirname, '../dist/assets/Icon.png'),
     webPreferences: {
       preload: path.join(__dirname, './preload.cjs'), // Asegúrate de que esta ruta sea correcta
       nodeIntegration: true,
